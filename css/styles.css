@@ -18,21 +18,16 @@ body {
     padding: 0;
 }
 
+h1 {
+    font-weight: 700;
+}
+
 p {
     font-size: var(--font-size-paragraph);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 700;
-}
 
-button,
-a {
+button {
     font-weight: 600;
     background-color: var(--grey);
     color: var(--white);
@@ -44,9 +39,7 @@ a {
 }
 
 button:hover,
-a:hover,
-button:focus,
-a:focus {
+button:focus {
     background-color: var(--green);
     outline: none;
 }
