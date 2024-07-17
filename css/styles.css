@@ -10,14 +10,30 @@
 }
 
 body {
-    background-color: #121212;
-    color: #fff;
-    font-family: 'Arial', sans-serif;
+    background-color: var(--off-black);
+    color: var(--white);
+    font-family: var(--font-family);
+    font-size: var(--font-size-paragraph);
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: var(--font-size-paragraph);
+}
+
+h1 {
+    margin: 10px 0;
+    font-weight: 700;
+}
+
+button,
+a {
+    font-weight: 600;
 }
 
 .container {
@@ -41,11 +57,6 @@ body {
     height: 60px;
     border-radius: 50%;
     margin-bottom: 20px;
-}
-
-h1 {
-    margin: 10px 0;
-    font-size: 1em;
 }
 
 .location {
